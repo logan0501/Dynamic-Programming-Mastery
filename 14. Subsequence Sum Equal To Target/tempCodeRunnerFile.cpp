@@ -1,0 +1,1 @@
+            // cout<<arr[i]<<" "<<j<<" "<<nottake<<" "<<take<<endl;
