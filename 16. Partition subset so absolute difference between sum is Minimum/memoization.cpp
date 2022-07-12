@@ -4,9 +4,9 @@ using namespace std;
 bool helper(int n, int k, vector<int> &nums, vector<vector<int>> &dp)
 {
     if (n == 0)
-        return dp[n][k] = (nums[0] == k);
+        return  (nums[0] == k);
     if (k == 0)
-        return dp[n][k] = true;
+        return  true;
     if (dp[n][k] != -1)
         return dp[n][k];
     int nottaken = helper(n - 1, k, nums, dp);
