@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//pending
 int f(int i,int prev,vector<int> &nums){
     if(i==nums.size())return 0;
     int nottake = f(i+1,prev,nums);
